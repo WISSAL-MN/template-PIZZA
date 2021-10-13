@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    font-family: cursive;
+    
+}
+#home{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zisd6XU3kD3BR7labWHwW3rcgIpWE6wqTg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#home .first{
+    display: flex;
+    background-color: rgba(195, 195, 202, 0.2);
+    align-items: center;
+}
+#home .first:hover{
+    background-color: black;
+}
+.first a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+
+}
+#home .first >a:hover {
+    background-color:white;
+    color: black;
+}
+#home button {
+   
+    padding: 15px 18px;
+    border-radius: 1px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+ #home a button:hover {
+    background-color: rgb(226, 224, 224);
+    color: black;
+    padding: auto;
+    border-radius: 1px;
+    border: 1px solid rgb(226, 224, 224);
+    background-color: rgb(226, 224, 224);
+}
+.last input{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 118px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 29px;
+    margin-left: 31px;
+    font-size: 14px;
+}
+
+
+
+
+
+#menu{
+    background-color:black;
+}
+#menu table  {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 29px;
+    margin : 0px auto
+}
+#menu table th:hover {
+background-color: red;
+}
+table th a {
+    text-decoration: none;
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+#about{
+    background-color: #9c4444ec;
+}
+#about p {
+    text-align: justify;
+    padding-left: 91px;
+    padding-right: 173px;
+    font-size: 25px;
+    color: white;
+}
+.chef{
+    height: 152px;
+    margin-top: -106px;
+    margin-bottom: 37px;
+    border-radius: 46%;
+    MARGIN-LEFT: 878PX;
+  
+}
+.restaurant{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.openinghours{
+display: flex;
+justify-content: space-around;
+}
+#contact{
+    background-color: #607d8b;
+}
+#contact p{
+    text-align: justify;
+    padding-left: 91px;
+    padding-right: 117px;
+    font-size: 25px;
+    color: white;
+}
+form{
+    margin-left: 85px;
+}
+form input{
+    width: 830px;
+    height: 53px;
+    margin-bottom: 31px;
+    padding-left: 20px;
+    color: #333;
+}
+.btn:hover{
+   background-color: rgb(230, 215, 215) ;
+   border: 1px solid rgb(230, 215, 215);
+   font-size: 17px;
+}
+
